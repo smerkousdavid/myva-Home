@@ -1,0 +1,53 @@
+#
+# Hey guys this is the document so you can properly wire the Sensors without screwing up 
+# Your devices, first will be label, left side is the board right side is the sensor
+#
+
+
+------------UDOO quad/dual/neo---------------
+
+#If using rfid reader for placement
+%%UDOO%%               %%RFID%%
+9             ::         RST
+10            ::         SSN
+11            ::         MOSI
+12            ::         MISO
+13            ::         SCK
+GND           ::         GND
+3.3v          ::         VCC
+
+#If using ultrasonic for placement of items
+%%UDOO%%               %%ULTRA%%
+12        1k resistor     echo
+13            ::          trig
+GND           ::          GND
+5v            ::          VCC
+
+----------------------------------------------
+
+
+---------------Linkit SMART-------------------
+
+%%SMART%%              %%RELAY%%
+p1           ::           IN1
+GND          ::           GND
+5v           ::           VCC
+
+----------------------------------------------
+
+---------------Linkit ONE---------------------
+
+%%ONE%%                         %%ANT%%
+GPSant           ::           GPS_Antenna
+WIFIant          ::           Wifi_Antenna
+
+# Might want to plug in a battery as well
+
+----------------------------------------------
+
+-----------------UDOO Neo---------------------
+
+%%NEO%%                     %%TEMP%%              %%BARO%%                
+i2c-small cord   ::     i2c in large cord  ::  i2c in large cord                 
+
+----------------------------------------------

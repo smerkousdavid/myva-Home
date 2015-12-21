@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Home Automation</string>
+    <string name="largeButtondesc">Press this</string>
+    <string name="infoText">Press microphone for command</string>
+    <string name="ipInfo">Enter Ip Address</string>
+    <string name="portInfo">Enter Port Num</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

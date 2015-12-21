@@ -1,0 +1,9 @@
+# Me again
+
+To properly use the Linkit_Smart, make sure it's in AP mode 
+and is connected to the same network as the sensors are, if
+you are going to make the phone remote remember to port for
+-ward your router as well to be able to send data to the 
+Smart...
+
+Cheers from myva
