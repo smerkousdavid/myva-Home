@@ -183,7 +183,7 @@ def SensorStart():  # This runs on separate thread
     coms = Commands()
     serv = socket(AF_INET, SOCK_STREAM)
     serv.bind(("", 9292))  # SENSOR PORT 9292
-    serv.listen(1)
+    serv.listen(7)
 
     while True:  # Loop forever
         conn, addr = serv.accept()
