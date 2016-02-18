@@ -8,7 +8,7 @@ This is a prebuilt application to easily allow you to modify and experiment<br>
 With the appliances in your home, all running on a microprocessor (Linkit_Smart)<br>
 <br>
 EXAMPLE VIDEO:<br>
-Link coming soon<br><br>
+https://www.youtube.com/watch?v=RFp7yScXVJA <br><br>
 
 Install
 ------------------
